@@ -1,6 +1,6 @@
 # Gene-Expression-Networks-3-Brain-Region-R
 
-Construction of Gene Expression Network across 3 brain regions in the presence of Ethanol using WGCNA in R
+CONSTRUCTION OF GENE EXPRESSION NETWORKS ACROSS 3 BRAIN REGIONS USING R
 
 The goal was to construct gene expression networks in B6 mice across three brain regions after acute exposure to ethanol. The script walks through the process of inputting each data set, filtering out at a determined significance level, binding the 3 regions together into a master gene list and removing redundancies before extracting the probeset_ids for each row in the data set.
 
@@ -10,7 +10,7 @@ Dendrograms are then plotted to show the users the options for the deepsplit and
 
 The unique Entrez IDs are then saved under a file named for the module it is a member of. Annotation data is saved into another file with the module name in the title.
 
-Connectivity Measures Between Modules.
+CONNECTIVITY MEASURES BETWEEN MODULES
 
 After network construction is run, it was of interest to know the similarity and dissimilarity between the modules in each region. The gene lists per brain region were loaded and extraneous information removed. The data was then observed for an average, to ensure there were no outliers, and no missing values. The average was plotted for better visualization. 
 
@@ -23,5 +23,7 @@ A dissimilarity measure was again defined, but now between the module Eigengenes
 The measures of connectivity were written to excel files and a module membership list was constructed and also written to excel files. 
 
 Module membership and intramodular connectivity measures could then be shown as a scatterplot. 
+
+TRAIT INPUT AND CORRELATION
 
 
