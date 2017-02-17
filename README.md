@@ -26,4 +26,13 @@ Module membership and intramodular connectivity measures could then be shown as 
 
 TRAIT INPUT AND CORRELATION
 
+Phenotype Behavior information was inputted into R for stress behaviors in mice. The input was turned into a date frame, with the columns removed that were unnecessary (strains of mice not in the experiment), and saved as an rdata file.
+
+The data was loaded in, with the number of genes in the first region being the same as the number of columns as our original data frame datExpr0, the number of Samples equaling the number of rows. 
+
+The Module Eigengenes were calculated with color labels for the brain region, and then correlated with the trait information gathered from the rows of the inputted phenotype file. That calculation was given a p value against the number of samples in the region, and then the p value and correlation between trait and Module Eigengene was plotted into a test Matrix. The test matrix was shown as a heatmap to display higher intensity color as stringer correlation between the Module Eigengene and the phenotype trait. 
+
+Such was repeated for the other two brain regions.
+
+
 
