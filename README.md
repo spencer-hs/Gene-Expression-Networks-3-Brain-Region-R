@@ -10,5 +10,18 @@ Dendrograms are then plotted to show the users the options for the deepsplit and
 
 The unique Entrez IDs are then saved under a file named for the module it is a member of. Annotation data is saved into another file with the module name in the title.
 
+Connectivity Measures Between Modules.
+
+After network construction is run, it was of interest to know the similarity and dissimilarity between the modules in each region. The gene lists per brain region were loaded and extraneous information removed. The data was then observed for an average, to ensure there were no outliers, and no missing values. The average was plotted for better visualization. 
+
+An adjacency matrix was constructed for each region, observing the same powers that were used in the construction of their networks. A histogram and Scale Free Topology were plotted. Dissimilarity matrixes were calculated by subtracting the adjacency matrix from one. 
+
+The dendrograms from network construction were then run again so that the user had the variables net0, net1, net2 to proceed with. Module Eigengenes were then defined with a set significance and correlation. 
+
+A dissimilarity measure was again defined, but now between the module Eigengenes, so as to keep track of the sign of the correlation. The Eigengenes were then plotted to a dendrogram, and a heatmap was constructed for specific modules to show its similarity to others. 
+
+The measures of connectivity were written to excel files and a module membership list was constructed and also written to excel files. 
+
+Module membership and intramodular connectivity measures could then be shown as a scatterplot. 
 
 
