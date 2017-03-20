@@ -1,5 +1,7 @@
 # Gene-Expression-Networks-3-Brain-Region-R
 
+*SOME TERMS LEFT INTENTIONALLY GENERAL SO AS NOT TO UNDERMINE UNPUBLISHED WORKS*
+
 CONSTRUCTION OF GENE EXPRESSION NETWORKS ACROSS 3 BRAIN REGIONS USING R
 
 The goal was to construct gene expression networks in B6 mice across three brain regions after acute exposure to ethanol. The script walks through the process of inputting each data set, filtering out at a determined significance level, binding the 3 regions together into a master gene list and removing redundancies before extracting the probeset_ids for each row in the data set.
